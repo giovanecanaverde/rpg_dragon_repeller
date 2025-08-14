@@ -24,7 +24,9 @@ function goCave() {
 }
 
 function fightDragon() {
-    console.log("Fighting dragon.");
+    button1.innerText = "Buy 10 health (10 gold)"
 }
 // initialize buttons
 button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
